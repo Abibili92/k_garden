@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/dibujos.jpeg');
+}
+
+.texi {
+    font-size: 20px; /* Ajusta a un tamaño más pequeño */
+}
+
+/*HEADER*/
+header{
+    background-color:#FF7D05;
+    color:white;
+    font-family:"Questrial", sans-serif;
+    padding:10px;
+}
+
+button{
+    background-color:#FF7D05;
+    color:white;
+    border:none;
+}
+
+/*SEGUNDO HEADER*/
+
+.n2{
+    background-color:#FFB759;
+}
+
+.btn2{
+    background-color:#FFB759;
+    margin:10px;
+    font-size:20px;
+    border-radius:20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn3{
+    background-color:#FFB759;
+    margin:10px;
+    font-size:20px;
+    border-radius:20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.btn2:hover{
+    border:none;
+    border-radius:20px;
+    background-color: #ff9a27;
+    transform: scale(1.1);
+}
+
+.btn2:focus {
+    outline: none;
+}
+
+.btn2:active{
+    border:none;
+    border-radius:20px;
+    background-color: #e6891f;
+    transform: scale(1.1);
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+/*GRUPO DE BOTONES*/
+.net{
+    font-size:40px;
+    border:none;
+    color:white;
+    
+}
+.net:hover{
+    border:none;
+    background-color:#d66e0d;
+    transition-duration: 0.4s;
+    color:white;
+}
+.net:active{
+    transition-duration: 0.4s;
+    background-color:#ff9532;
+}
+.net:focus {
+    outline: none;
+}
+.ai{
+    color: white;
+    text-decoration:none;
+}
+/*CARTEL*/
+.cartel{
+    background-color: rgba(255, 149, 50, 0.75);
+    color:white;
+    font-family:"Questrial", sans-serif;
+}
+
+.text{
+    margin-top:20px;
+    padding: 20px;
+    max-width:850px;
+}
+
+.boldy{
+    color:white;
+}
+
+b{
+    color:#E4A648;
+}
+
+.kids {
+    max-width: 100%; 
+    height: auto;
+  }
+
+  @media (max-width: 780px) { 
+    .cartel {
+      flex-direction: column; 
+      align-items: center; 
+    }
+    
+    .cartel .kids {
+      margin-top: 20px; 
+      width: 80%; 
+    }
+  }
+.kids:hover {
+    opacity: 0.7;
+}
+
+/*CONTENT*/
+.white{
+    background-color: white;
+    margin:20px;
+    padding:40px;
+}
+.carter{
+    max-width: 500px;
+    background-color:pink;
+}
+/*Titles*/
+.proof{
+    color:#E4A648;
+    font-family:"Questrial", sans-serif;
+    text-decoration: underline;
+}
+#proof{
+    color:#E4A648;
+    font-family:"Questrial", sans-serif;
+}
+.notify{
+    max-width:650px;
+}
+.custom-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.custom-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+#project-cards {
+    max-height: 1100px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.modal-body {
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.reacciones-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reacciones-container p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.reacciones-container i {
+    margin-right: 5px;
+}
+
+
+

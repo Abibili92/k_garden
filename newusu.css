@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/dibujos.jpeg');
+}
+
+/*HEADER*/
+header{
+    background-color:#FF7D05;
+    color:white;
+    font-family:"Questrial", sans-serif;
+    padding:10px;
+}
+
+button{
+    background-color:#FF7D05;
+    color:white;
+    border:none;
+}
+
+/*SEGUNDO HEADER*/
+
+.n2{
+    background-color:#FFB759;
+}
+
+.btn2{
+    background-color:#FFB759;
+    margin:10px;
+    font-size:20px;
+    border-radius:20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn2:hover{
+    border:none;
+    border-radius:20px;
+    background-color: #ff9a27;
+    transform: scale(1.1);
+}
+
+.btn2:focus {
+    outline: none;
+}
+
+.btn2:active{
+    border:none;
+    border-radius:20px;
+    background-color: #e6891f;
+    transform: scale(1.1);
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+/*GRUPO DE BOTONES*/
+.net{
+    font-size:40px;
+    border:none;
+    
+}
+.net:hover{
+    border:none;
+    background-color:#d66e0d;
+    transition-duration: 0.4s;
+}
+.net:active{
+    transition-duration: 0.4s;
+    background-color:#ff9532;
+}
+.net:focus {
+    outline: none;
+}
+.ai{
+    color: white;
+    text-decoration:none;
+}
+
+/*CARTEL*/
+.cartel{
+    background-color: #ee8d31;
+    color:white;
+    font-family:"Questrial", sans-serif;
+}
+
+.text{
+    margin-top:20px;
+    padding: 20px;
+    max-width:850px;
+}
+
+.boldy{
+    color:white;
+}
+
+.kids {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.kids:hover {
+    opacity: 0.7;
+}
+
+/*CONTENT*/
+.white{
+    background-color: white;
+    margin:20px;
+    padding:40px;
+}
+.carter{
+    max-width: 500px;
+    background-color:pink;
+}
+.proof{
+    color:#E4A648;
+    font-family:"Questrial", sans-serif;
+    text-decoration: underline;
+}
+#proof{
+    color:#E4A648;
+    font-family:"Questrial", sans-serif;
+}
+.notify{
+    max-width:400px;
+    background-color: violet;
+}
+
+/*DIV ONE AND TWO*/
+.one{
+    background-color: rgb(255, 255, 255);
+    max-width: 650px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+.formy{
+    background-color: rgba(255, 123, 0, 0.80);
+    max-width: 500px;
+    border-radius: 10px;
+    padding:10px;
+}
+.titleh{
+    color:white;
+}
+*{
+    font-family:"Questrial", sans-serif;
+}
+
+.h51{
+    color:#ff8615;
+}
+
+#modalone{
+    color:white;
+    background-color:rgba(255, 123, 0, 0.80);
+}
+
+#modalone:hover{
+    background-color: rgba(206, 102, 6, 0.8);
+}
+
+#modalone:active{
+    background-color: rgba(255, 148, 48, 0.8);
+}
+
+input:focus{
+    outline:none;
+}
+
+.main{
+    border: white 1px solid;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.main:active{
+    background-color: #d16c0d;
+}
